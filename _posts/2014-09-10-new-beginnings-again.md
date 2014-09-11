@@ -14,7 +14,7 @@ OK, but when it came to some tasks the struggle was real
 (inserting an image was like an 8-step process). It was also slow
 as balls.
 
-[Glenn Conner][glenn] told me about Jekyll, which uses markdown
+[Glenn][glenn] told me about Jekyll, which uses markdown
 (used by [GitHub][github]) with some other bits, then spits out static
 HTML files.
 
