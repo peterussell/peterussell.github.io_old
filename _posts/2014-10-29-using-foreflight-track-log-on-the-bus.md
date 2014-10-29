@@ -8,7 +8,7 @@ categories: flying
 ForeFlight ([pretty][ff1] [unanimously][ff2] the best flying app currently available)
 has a cool feature called **Track Log** that I've wanted to try out for a while now.
 Track Log records flight data such as altitude and heading over time, and lets you
-export it later as .kml, .gpx, or .csv formats.
+export it later in .kml, .gpx, or .csv formats.
 
 A cool trick is importing the recorded data into Google Earth, which can display a
 3D view of where you and your trusty Cessna have been. I didn't have
