@@ -5,6 +5,8 @@ date:   2014-12-29 12:38:00
 categories: weekly-3
 ---
 
+[Just take me to the photos...](#photos)
+
 The first installment of the 'Weekly 3' resurrection are photos from a flyout to Sacramento Executive with the Experimental Aircraft Association (EAA) way back in April 2014. Here's an [approximate map of the route][skyvector] on SkyVector.com.
 
 I was incredibly lucky to fly in the back of Oliver's beautiful [Cessna 195][wp_195] from San Carlos to Sacramento, then found myself unexpectedly in a rare [Boeing Stearman][wp_stearman] for the return trip.
@@ -15,6 +17,7 @@ They support a wide range of interests, from homebuilt airplanes, warbirds, to s
 
 For more information on the EAA, you can check out the main website at [eaa.org][eaa_main], or visit the San Carlos chapter's website at [eaa20.org][eaa_ch20].
 
+<a name="photos"></a>
 [![Captain Oliver](/assets/images/2014-12-29/th_oliver-c195.jpg)][oliver-c195]
 
 [![Cherokee in flight](/assets/images/2014-12-29/th_cherokee-in-flight.jpg)][cherokee]
