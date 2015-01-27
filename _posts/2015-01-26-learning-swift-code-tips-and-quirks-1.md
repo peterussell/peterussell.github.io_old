@@ -17,8 +17,8 @@ format and quirks:
  - object properties are named var variable-name:variable-type, eg. var Name:String
  - when calling a method, the first arg doesn't need to be named, but subsequent ones do, eg. flyPlane("RV4", orientation: "Upside Down", reason: "More fun")
  - to link a UIView object in the storyboard to a property on a class:
-  - open the 'Assistant Editor' - bow tie icon, top right of Xcode
-  - CTRL+click-and-drag the object in the storyboard over to the code window
+    - open the 'Assistant Editor' - bow tie icon, top right of Xcode
+    - CTRL+click-and-drag the object in the storyboard over to the code window
 
 Swift seems like a fun language and quite straight-forward to wrap my head
 around so far. I'm looking forward to delving into something a bit
