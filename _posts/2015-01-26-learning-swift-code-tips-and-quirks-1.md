@@ -14,14 +14,14 @@ I've just finished lesson 10, which has started to dive into writing Swift code.
 At this point I thought it'd be a good time to write a few little notes about
 format and quirks:
 
- - object properties are named var <variable-name>:<type>, eg. var Name:String
- - when calling a method, the first arg doesn't need to be named, but subsequent ones do, eg. flyAPlane("Vans RV4", orientation: "Upside Down", reason: "More fun")
+ - object properties are named var variable-name:variable-type, eg. var Name:String
+ - when calling a method, the first arg doesn't need to be named, but subsequent ones do, eg. flyPlane("RV4", orientation: "Upside Down", reason: "More fun")
  - to link a UIView object in the storyboard to a property on a class:
- - open the 'Assistant Editor' - bow tie icon, top right of Xcode
- - CTRL+click-and-drag the object in the storyboard over to the code window
+  - open the 'Assistant Editor' - bow tie icon, top right of Xcode
+  - CTRL+click-and-drag the object in the storyboard over to the code window
 
-Swift seems like a fun language and has been quite straight-forward to wrap
-my head around so far. I'm looking forward to delving into something a bit
-more substantial once I know enough to be dangerous.
+Swift seems like a fun language and quite straight-forward to wrap my head
+around so far. I'm looking forward to delving into something a bit
+more substantial once I've grokked enough to be dangerous.
 
 [cwc]: http://codewithchris.com/1-introduction-to-the-tools-and-materials/
