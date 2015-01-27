@@ -27,6 +27,10 @@ format and quirks:
 
         flyPlane("RV4", orientation: "Upside Down", reason: "More fun")
 
+ - return types go *after* the method signature
+
+        doSomeCoolEquation(val1:Int, val2:Int) -> Int { // method body }
+
  - to link a UIView object in the storyboard to an *IBOutlet* property on a class:
     - open the 'Assistant Editor' - bow tie icon, top right of Xcode
     - CTRL+click-and-drag the object in the storyboard over to the code window
