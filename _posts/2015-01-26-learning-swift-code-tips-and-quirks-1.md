@@ -27,7 +27,7 @@ format and quirks:
 
         flyPlane("RV4", orientation: "Upside Down", reason: "More fun")
 
- - to link a UIView object in the storyboard to a property on a class:
+ - to link a UIView object in the storyboard to an *IBOutlet* property on a class:
     - open the 'Assistant Editor' - bow tie icon, top right of Xcode
     - CTRL+click-and-drag the object in the storyboard over to the code window
 
