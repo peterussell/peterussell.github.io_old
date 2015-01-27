@@ -14,8 +14,7 @@ I've just finished lesson 10, which has started to dive into writing Swift code.
 At this point I thought it'd be a good time to write a few little notes about
 format and quirks:
 
- - variable naming follows the convention
-    var variable-name:variable-type
+ - variable naming follows the convention ~~~~var variable-name:variable-type~~~~
    For example:
     var someName:String
    The type isn't compulsory, but nice if you know the type in advance
