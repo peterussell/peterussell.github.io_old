@@ -14,8 +14,13 @@ I've just finished lesson 10, which has started to dive into writing Swift code.
 At this point I thought it'd be a good time to write a few little notes about
 format and quirks:
 
- - object properties are named var variable-name:variable-type, eg. var Name:String
- - when calling a method, the first arg doesn't need to be named, but subsequent ones do, eg. flyPlane("RV4", orientation: "Upside Down", reason: "More fun")
+ - variable naming follows the convention
+    var variable-name:variable-type
+   For example:
+    var someName:String
+   The type isn't compulsory, but nice if you know the type in advance
+ - when calling a method, the first arg doesn't need to be named, but subsequent ones do
+    flyPlane("RV4", orientation: "Upside Down", reason: "More fun")
  - to link a UIView object in the storyboard to a property on a class:
     - open the 'Assistant Editor' - bow tie icon, top right of Xcode
     - CTRL+click-and-drag the object in the storyboard over to the code window
