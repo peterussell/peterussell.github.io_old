@@ -31,6 +31,14 @@ format and quirks:
 
         doSomeCoolEquation(val1:Int, val2:Int) -> Int { // method body }
 
+ - 'type' methods are similar to static methods in other languages, they have the syntax:
+
+         class func GetMyFood () -> String {
+           return "It's a sandwich"
+         }
+         ...
+         TheClass.GetMyFood()
+
  - to link a UIView object in the storyboard to an *IBOutlet* property on a class:
     - open the 'Assistant Editor' - bow tie icon, top right of Xcode
     - CTRL+click-and-drag the object in the storyboard over to the code window
