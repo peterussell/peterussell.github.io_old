@@ -5,7 +5,7 @@ date:   2015-05-15 16:53:00
 categories: react, programming
 ---
 
-([I don't care about the background, take me to the solution...](#solution))
+([I don't want your life story, take me to the solution](#solution))
 
 I've been playing with [React][react], a JavaScript UI-ish framework
 from Facebook, by working through [this tutorial][tutorial]. Part of
