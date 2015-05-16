@@ -24,7 +24,7 @@ thing turns up in the console:
         http, data, chrome, chrome-extension, https, chrome-extension-resource.
 
 <a name="solution" />
-**The quick solution** is to modify server.json to also serve index.html, then
+**One quick solution** is to modify server.json to also serve index.html, then
 request index.html from the server, eg. http://localhost:3000/index.html.
 
 1. open server.js in your favorite text editor
