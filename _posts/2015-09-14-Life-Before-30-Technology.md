@@ -30,14 +30,14 @@ And then I can call myself things like a Full Stack Developer. Excellent.
 
 ### Project 3: JavaScript Chops
 
-All the new stuff that you can do with JavaScript is really neat, and I want in. I've done some JS development, but not nearly as much as I'd like (and no project from scratch, it's all been bug fixing or featuring development on existing projects). Of particlar interest are Node.js and React.js.
+All the new stuff that you can do with JavaScript is really neat, and I want in. I've done some JS development, but not nearly as much as I'd like (and no project from scratch, it's all been bug fixing or feature development on existing projects). Of particlar interest are Node.js and React.js.
 
 ### Project 4: Fortnightly Posts
 
-Well, here you go. I think it'll be a lot of fun to look at the things I've been working on and how things were going at the steps along the way. Also I want to be famous. That's mainly it.
+Well, here you go. It'll be a lot of fun to look at the things I've been working on and how they along the way. Also I want to be famous. That's mainly it.
 
 ### Project 5: Hardware (surprise!)
 
-I didn't mention this in the original post, but I'd like to try out something in the hardware world. Probably something with a Raspberry Pi. Needs more thought. But it'd be cool!
+This wasn't mentioned in the original post (hence the surprise! Surprised?) but I've grown more interested in dabbling in the hardware world. Probably something with a Raspberry Pi. Needs more thought. But it'd be cool!
 
 Thanks for hanging out. Next time, Part 2: Flying!
