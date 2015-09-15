@@ -9,7 +9,7 @@ I promised to elaborate on each of the tiny expanses of my life that I'd like to
 
   ![New Frameworks](/assets/images/2015-09-14/new-framework.jpg)
 
-I'm impressed by people that stick their heads down and get on with it, and my focus will be attemping to emulate that while learning to mitigate distractions which almost always a short term waste of time. Bigger picture, long term thinking, and all that good stuff.
+I'm impressed by people that stick their heads down and get on with it, and my focus will be attemping to emulate that while learning to mitigate distractions which almost always a short term waste of time. Bigger picture, long term thinking. All that good stuff.
 
 ### Project 1: Image Workstation (IWS)
 
