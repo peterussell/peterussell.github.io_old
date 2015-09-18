@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Moving from NUnit to xUnit"
-date:   2015-8-25 22:15:00
+date:   2015-9-17 18:18:00
 categories: programming
 ---
 
@@ -11,9 +11,10 @@ chump.
 
 The need to rapidly add features to the IWS meant I never quite 'found the time' to write unit
 tests (let's not even talk about integration or stress tests...). I knew it would require writing
-some new interfaces for the filesystem and database to allow some mock objects and that all seemed
-pretty daunting. But now Lady Time (Lady Time? Is that a real thing?) has caught me and having
-fixed a few  I-already-fixed-that bugs it's time to go back and repay some technical debt.
+new interfaces for the filesystem and database (at least) to allow mock objects. Daunting stuff.
+But now Lady Time (Lady Time? That's a thing, right?) has caught up to me, and having
+fixed a few  I-already-fixed-that bugs it's time to go back and repay that never-sleeping technical
+debt.
 
 As part of that I've moved from NUnit, which I've used for a long time in a number of projects,
 to it's newer incarnation: [xUnit][xunit].
