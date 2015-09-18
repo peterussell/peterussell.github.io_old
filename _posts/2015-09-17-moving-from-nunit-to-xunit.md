@@ -17,20 +17,22 @@ fixed a few  I-already-fixed-that bugs it's time to go back and repay that never
 debt.
 
 As part of that I've moved from NUnit, which I've used for a long time in a number of projects,
-to it's newer incarnation: [xUnit][xunit].
+to its newer incarnation [xUnit][xunit].
 
-One major difference so far is the removal of test setup and teardown methods, methods
-decorated with `[TextFixtureSetUp]` and `[TestFixtureTearDown]` attributes respectively. They
-allowed you to run code in these methods before and after each test, which saved writing the
-same code for each test method.
+One major difference so far is the xUnit doesn't contain test setup and teardown methods, methods
+decorated with `[TextFixtureSetUp]` and `[TestFixtureTearDown]` attributes respectively whose job is
+to run code within these methods before and after each test. The idea is to avoid writing duplicate
+code at the start and end of each test method.
 
-In trying to figure out what happened to them, I came across [this article][setupteardown] from
-the James Newkirk, team lead on NUnit, which talks about why using SetUp and TearDown methods is
-a bad idea. I have mixed feelings, but we'll leave that as a topic for discussion.
+In pursuing the truth of SetUp and TearDown's demise I came across [this article][setupteardown] from
+James Newkirk, team lead on NUnit, which talks about why using SetUp and TearDown methods is
+a bad idea. I have mixed feelings, but we'll leave that as an exercise for the reader.
 
-Otherwise xUnit has been fairly straight forward. I won't get into its innards here (there are
+xUnit otherwise seems fairly straightforward and quite nice. I won't delve into its innards here (there are
 [plenty of better places][xunit-tutorials] on the internet for that. It's two quick NuGet installations
 (one for xUnit and one for the test runner), and Bob's your Uncle.
+
+So, advice from a chump: don't be a chump, pay your technical debt up front.
 
 [xunit]: https://xunit.github.io/
 [setupteardown]: http://jamesnewkirk.typepad.com/posts/2007/09/why-you-should-.html
