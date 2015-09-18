@@ -12,7 +12,7 @@ Alas, now the chump is me.
 
 The need to rapidly add features to the IWS meant I never quite 'found the time' to write unit
 tests (let's not even talk about integration or stress tests...). I knew it would require writing
-new interfaces for the filesystem and database (at least) to allow mock objects. Daunting stuff.
+new interfaces for the file system and database (at least) to allow mock objects. Daunting stuff.
 But now Lady Time (Lady Time? That's a thing, right?) has caught up to me, and having
 fixed a few  I-already-fixed-that bugs it's time to go back and repay that never-sleeping technical
 debt.
