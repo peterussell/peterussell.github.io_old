@@ -6,8 +6,9 @@ categories: programming
 ---
 
 I swore it would never be me. I'd always have unit test coverage, not like those other chumps
-who churn out code with no guarantees against regression or fickleness. Alas, I'm now one such
-chump.
+churning out code with no guarantees against regression or fickleness.
+
+Alas, now the chump is me.
 
 The need to rapidly add features to the IWS meant I never quite 'found the time' to write unit
 tests (let's not even talk about integration or stress tests...). I knew it would require writing
