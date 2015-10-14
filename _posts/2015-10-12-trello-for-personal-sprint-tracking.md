@@ -44,7 +44,7 @@ it's very easy to get going without much work.  Here's how I've mapped the Trell
 the Agile/Scrum concepts:
 
 Each category I mentioned above is a Trello 'board', each task correlates to a Trello 'card'. Boards contain
-Cards. If any task requires more information then a Checklist can easily be added to a card to
+cards. If any task requires more information then a checklist can easily be added to a card to
 break it into sub-tasks. I've added colored labels which represent categories for tasks, with the
 idea that it'll be easy to see how I've been spending time (or should be spending time) at a glance.
 
