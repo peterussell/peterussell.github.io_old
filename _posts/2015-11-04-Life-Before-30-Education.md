@@ -9,7 +9,7 @@ Presenting the third (*ahem*) Key Focus Area (*ahem*): Education.
 
 ### Become Reasonably Fluent in a Second Language
 
-This one's been on the list for a long time and I'm sure I'm not alone. French is the language of choice because it's spoken in a number of areas that I'm interested in either visiting or spending more time in the future (including Tahiti in January... muahaha).
+This one's been on the list for a long time - I'm sure I'm not alone in that sentiment. French is my language of choice because it's spoken in a number of areas that I'm interested in either visiting or spending more time in the future (including Tahiti in January... muahaha).
 
 I've been using the free iPad app from [www.duolingo.com][duolingo], usually doing a couple of lessons most nights before bed. The lessons only take about 5-10 minutes each which make them nice bite-size chunks.
 
