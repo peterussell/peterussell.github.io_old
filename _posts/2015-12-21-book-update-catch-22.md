@@ -2,7 +2,7 @@
 layout: post
 title:  "Book Update: Catch-22"
 date:   2015-12-21 20:20:00
-categories: health
+categories: education, reading
 ---
 
 Yesterday morning I finished Catch-22 by Joseph Heller. The beginning seemed really familiar, until I
