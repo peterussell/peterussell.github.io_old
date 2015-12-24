@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coding at the Supahemarket"
+title:  "Coding at the Supermarket"
 date:   2015-12-23 13:31:00
 categories: remote-working
 ---
