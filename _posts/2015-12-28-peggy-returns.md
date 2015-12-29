@@ -1,4 +1,4 @@
----
+--
 layout: post
 title:  "Peggy Returns!"
 date:   2015-12-28 20:33:00
@@ -32,8 +32,8 @@ I'll be the first to admit I have no idea what I'm doing, but I've put the sourc
 anyway in case anyone wants to have a nosey. If you want to download and run it, something
 like this should work:
 
-    git clone <your-dir>
-    cd <your-dir>
+    git clone https://github.com/peterussell/peggy2
+    cd peggy2
     npm install
     npm run example server.js
 

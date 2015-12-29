@@ -19,7 +19,7 @@ As of today I could to ask for a red cat, or inform my fellow baguette-lovers th
 
 I've noticed a common trait shared by most people I admire is a penchant for reading - there must be something to it. Instead of pursuing any in-depth analysis (in large part due to laziness) I figured I'd just start reading more and see how it works out. And I like reading. It's sexy.
 
-It also seems like a good excuse to spend less quality time with the TV (although I don't watch a whole heap anyway and tend to glaze of when Game of Thrones talk begins). Now there's a good excuse: 'Sorry, got 16 books that need reading'.
+It also seems like a good excuse to spend less quality time with the TV (although I don't watch a whole heap anyway and tend to glaze over when Game of Thrones talk begins). Now there's a good excuse: 'Sorry, got 16 books that need reading'.
 
 I don't have a reading list per se, but imagine it'll be a mix of fiction and non-fiction. So far I've finished [So Good They Can't Ignore You][sgtciy] by Cal Newport, and [Forever Flying][forever-flying], a biography about the legendary pilot Bob Hoover (my really-cool mum got me a signed copy). I'm currently involved with [Catch-22][catch-22] by Joseph Heller, which I've wanted to read for ages. See, the plan works!
 
