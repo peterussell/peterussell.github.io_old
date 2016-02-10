@@ -2,7 +2,7 @@
 title: Pete Russell
 email:
 description: > # this means to ignore newlines until "baseurl:"
- Originally from Wellington NZ, now in San Francisco.
+ Originally from Wellington NZ, now in Portland, OR.
  Software engineer, private pilot, climber.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://peterussell.me" # the base hostname & protocol for your site
