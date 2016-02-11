@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IR GS4 - Flight Instruments (1)"
+title:  "IR GS4 - Instruments: Airspeed Indicator"
 date:   2016-02-08 21:48:00
 categories: instrument-training
 ---
