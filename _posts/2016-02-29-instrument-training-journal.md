@@ -9,6 +9,6 @@ I noticed the instrument training ground school/sim/flying posts were cluttering
 
  - # [http://ir.peterussell.me][ir]
 
-I'll continue posting major updates on this website - the cross country trips, photos, and milestones, but all the nitty-gritty will henceforth reside in those greener pastures.
+I'll continue posting major updates - the cross country flights, photos, milestones - on this website, but all the nitty-gritty will henceforth reside in those greener pastures.
 
 [ir]: http://ir.peterussell.me
