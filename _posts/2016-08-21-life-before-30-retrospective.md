@@ -7,8 +7,8 @@ categories: life
 
 Well, goodness, 30's really happened.
 
-It's not all that bad. My limbs still work fairly well, there aren't too many new
-surprising bodily noises, we're enjoying life in a different little bit of the world
+It's not all that bad. My limbs still mostly work, not too many new
+bodily noises, we're enjoying life in a different little bit of the world
 (pretty close to the last one, but I like it a lot more), and I seem to have
 acquired part ownership of a dog. So far so good.
 
