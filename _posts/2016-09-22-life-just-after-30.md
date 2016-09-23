@@ -15,10 +15,8 @@ Reddit for the concept). I'll give a quick outline here and elaborate on each in
 # Professional: WXDecoder.com
 
 I noticed about last year was that there wasn't a huge amount of momentum on any single
-project (Image Workstation being the exception), which I think can be distilled to the
-fractured division of time between projects, especially the price of context switching to
-and from concepts and languages that have made it to the back of my not-always-stellar
-memory.
+project (Image Workstation being the exception), which I'll try blaming on the
+fractured division of time between projects.
 
 This year I'll commit to working on just one project and see how far it goes. It should
 be a fun experiment if nothing else.
