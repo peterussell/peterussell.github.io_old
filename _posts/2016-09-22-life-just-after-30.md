@@ -44,7 +44,7 @@ this makes any sense. Will revisit it later.
 
  - The reading challenge last year was well worth it, so that stays. 18 books this year.
 
-Updates soon, bed for now.
+More soon.
 
 [goals]: /programming/2015/08/25/life-before-30.html
 [retrospective]: /life/2016/08/21/life-before-30-retrospective.html
