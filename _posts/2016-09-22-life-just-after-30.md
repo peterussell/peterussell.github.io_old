@@ -18,8 +18,7 @@ I noticed about last year was that there wasn't a huge amount of momentum on any
 project (Image Workstation being the exception), which I'll try blaming on the
 fractured division of time between projects.
 
-This year I'll commit to working on just one project and see how far it goes. It should
-be a fun experiment if nothing else.
+This year I'll commit to working on just one project and see how far it goes.
 
 # Exercise-y: Climbing
 
