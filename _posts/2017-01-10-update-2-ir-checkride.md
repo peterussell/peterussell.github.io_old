@@ -34,7 +34,7 @@ decoding METARs (avation weather reports) for two basic use cases:
     latest METAR, decode it, and return it to me.
     * Example for Portland International (KDPX):
 
-    > [api.wxdecoder.com/metar/decode/kpdx][wxd-api-pdx]
+      > [api.wxdecoder.com/metar/decode/kpdx][wxd-api-pdx]
 
  2. As a user, I have METAR text which I want to decode. I want some way
     to submit raw METAR text to the website, then the website should decode
