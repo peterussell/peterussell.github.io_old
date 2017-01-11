@@ -12,8 +12,8 @@ categories: life
 The spirit of Jimmy Doolittle has smiled upon me and I'm happy to
 report the instrument rating checkride was a success. The ride was
 a 3 hour oral, and 2.2 hour flight test, split over two days
-(due to a failed turn coordinator). It was a really fun, and fairly
-intense, checkride - and I'm really happy to have done the rating.
+due to a failed turn coordinator. It was a really fun, fairly
+intense checkride; I'm really happy to have done the rating.
 
 I've decided to go for the commercial multi-engine rating, and set up
 [cpl.peterussell.me][cpl] for study notes and flight debriefs. Looking
