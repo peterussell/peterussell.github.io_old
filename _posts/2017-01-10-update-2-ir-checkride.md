@@ -13,7 +13,7 @@ The spirit of Jimmy Doolittle has smiled upon me and I'm happy to
 report the instrument rating checkride was a success. The ride was
 a 3 hour oral, and 2.2 hour flight test, split over two days
 due to a failed turn coordinator. It was a fun, though fairly
-intense checkride, but I'm really happy to have done the rating.
+intense checkride, but I'm very happy to have done the rating.
 
 I've decided to go for the commercial multi-engine rating, and set up
 [cpl.peterussell.me][cpl] for study notes and flight debriefs. Looking
@@ -23,7 +23,7 @@ documenting flight debriefs, so now's my chance to make good.
 The tailwheel time has been slowly building. We've had pretty rubbish
 weather lately, but I've managed to squeeze in flights on most sunny
 days. The logbook says 9.7 hours and I'm starting to feel comfortable
-in the SportCub, definitely some of the most fun flying I've done.
+in the SportCub, it's definitely some of the most fun flying I've done.
 
 **WX Decoder**
 
@@ -50,7 +50,7 @@ have suggestions you can get me [@nz_pete][twitter].
 **Climbing**
 
 A bit more training and a bit less drinking beer (boo) is paying off, I
-climbed my first - ever - V7 indoors last week. I've been working a
+climbed my first *ever* V7 indoors last week. I've been working a
 second which should go in the next session or two. Progress.
 
 I've also been asking around about outdoor spots, and signed up to the
