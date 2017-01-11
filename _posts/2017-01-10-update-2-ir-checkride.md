@@ -29,15 +29,16 @@ in the SportCub, definitely some of the most fun flying I've done.
 
 The first - very alpha - version of the REST API is online! It supports
 decoding METARs (avation weather reports) for two basic use cases:
-1. As a user, I want to specify an airport ID. The website should fetch the
-   latest METAR, decode it, and return it to me.
-   > example for Portland (KPDX): [api.wxdecoder.com/metar/decode/kpdx][wxd-api-pdx]
-2. As a user, I have METAR text which I want to decode. I want some way
-   to submit raw METAR text to the website, then the website should decode
-   the text into a friendly format and return that decoded text to me.
-   * This one requires including the raw METAR string in the body of a GET
-     request to...
-   > [api.wxdecoder.com/metar/decode][wxd-api-pdx]
+
+ 1. As a user, I want to specify an airport ID. The website should fetch the
+    latest METAR, decode it, and return it to me.
+    > example for Portland (KPDX): [api.wxdecoder.com/metar/decode/kpdx][wxd-api-pdx]
+ 2. As a user, I have METAR text which I want to decode. I want some way
+    to submit raw METAR text to the website, then the website should decode
+    the text into a friendly format and return that decoded text to me.
+    * This one requires including the raw METAR string in the body of a GET
+      request to...
+    > [api.wxdecoder.com/metar/decode][wxd-api-pdx]
 
 The REST API is written with the Django REST Framework (DRF), deployed on
 Heroku.
