@@ -1,0 +1,55 @@
+I"�	<p>Peggy now has a (very rudimentary) REST server API, which I’ve muddled together using
+node.js and Express. Despite my relative inexperience, it took a lot less time than I was expecting,
+although figuring out how to get React and Redux into the mix took a little extra learning time.</p>
+
+<p>The goal tonight was to put together a quick proof-of-concept, and get the webapp (React/Redux)
+sending requests and writing out responses.</p>
+
+<p>This is the resulting webapp UI (polished, I know).</p>
+
+<p><img src="/assets/images/2016-01-03/peggy-rest-server-screenshot.png" /></p>
+
+<p>The REST server expects a POST with a JSON body looking like:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  userID: 'some-id-string',
+  command: 'go north', // for example
+}
+</code></pre></div></div>
+
+<p>The server (in its current incarnation) looks at the command and returns a JSON object containing
+a simple status, a message field indicating the result, and a new position, something like:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  status: 'success',
+  message: 'Executing command go north',
+  newPosition: 'in the north (from rest-server)'
+}
+</code></pre></div></div>
+
+<p>This is what the response object looks like in Chrome dev tools:</p>
+
+<p><img src="/assets/images/2016-01-03/response-body.png" /></p>
+
+<p>On the webapp end, the Redux action dispatcher and reducer have been modified to fire off a REST
+request using the fetch API (also pretty straight forward, <a href="https://davidwalsh.name/fetch">David Walsh’s fetch API page</a>
+was a big help), then add the result to the Redux state.</p>
+
+<p>Ultimately the REST server will be plumbed into the C++ game server, and act as a marshall
+between the webapp (ie. user) and the actual processing done by the game server.</p>
+
+<p>As always it’s all open-sourcey, so feel free to git clone from <a href="https://github.com/peterussell/peggy2">github.com/peterussell/peggy2</a>.
+To get the REST server running, you’ll need to cd into the rest-server directory, install the npm
+packages, then start the server (default port 3000).</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd &lt;peggy-base-dir&gt;/rest-server
+npm install
+node app.js
+</code></pre></div></div>
+
+<p><img src="/assets/images/2016-01-03/starting-the-server.png" /></p>
+
+<p>The next goal is to update the UI to display a history of commands entered by the user and responses
+from the server.</p>
+
+:ET

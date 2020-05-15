@@ -1,0 +1,74 @@
+I"�
+<h1 id="the-mission">The Mission</h1>
+
+<p>Set up a simple React website using SASS/SCSS and Bootstrap.</p>
+
+<h1 id="assumptions">Assumptions</h1>
+
+<p>An existing React web application (see the docs on
+<a href="https://reactjs.org/docs/create-a-new-react-app.html">How to create a react app</a>  if you need help), and 
+<code class="highlighter-rouge">npm</code> installed.</p>
+
+<h1 id="1-install-node-sass">1. Install node-sass</h1>
+
+<p><code class="highlighter-rouge">npm install --save node-sass</code></p>
+
+<p>The node-sass module adds the SASS preprocessor to your React project,
+allowing you to write SASS/SCSS (which browsers don’t understand) and
+have it come out as CSS (which browser do understand).</p>
+
+<h1 id="2-add-styles-to-components">2. Add styles to components</h1>
+
+<p>It’s generally recommended to keep React components completely
+self-contained, which implies that each
+component should have its own stylesheet. For example, this is how 
+implemented a <code class="highlighter-rouge">NavBar</code> component.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- src
+  |- components
+     |- NavBar
+        |- NavBar.js
+        |- NavBar.scss     
+</code></pre></div></div>
+
+<p>SCSS can be added to <code class="highlighter-rouge">NavBar.js</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.navBar {
+  background-color: #15354e;
+}
+</code></pre></div></div>
+
+<p>… and then use it in <code class="highlighter-rouge">NavBar.js</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div className="navBar"&gt;
+  Awww yeah.
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h1 id="future-plans">Future Plans?</h1>
+
+<p>WXDecoder is still very much under active development. The major
+upcoming components are:</p>
+
+<ol>
+  <li>Complete decoders for all pieces of the METAR. The major components
+are complete, but some Remarks still need to be done.</li>
+  <li>Provide support for METARs outside the US. Particularly New Zealand,
+where I’ll want to be using it :)</li>
+  <li>Add descriptions for all components.</li>
+  <li>Add login ability, to allow users to save their sets of home airports,
+or ones they use frequently for cross country flights.</li>
+  <li>And then the rest of the backlog…<br />
+   <img src="/assets/images/2017-06-18/trello.png" alt="Trello Backlog" /></li>
+</ol>
+
+<h1 id="closing-remarks">Closing Remarks</h1>
+
+<p>I’ve been excited about this project for a while and really happy it’s
+now living on the internet. Even in its alpha-stage infancy I’ve
+found it really useful for my preflight briefings.</p>
+
+<p>I welcome feedback, bug reports, criticism, and if you’re interested
+in dev updates please follow [@wxdecoder][twitter] on Twitter.</p>
+
+:ET

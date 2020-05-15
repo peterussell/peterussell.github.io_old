@@ -1,0 +1,55 @@
+I"�<h1 id="week-in-review">Week in Review</h1>
+
+<p><strong>Flying</strong></p>
+
+<p>I’ve scheduled an <a href="https://en.wikipedia.org/wiki/Instrument_rating">instrument rating</a>
+checkride for mid-October, so preparing for that’s the focal point of my
+little world for the next few weeks.</p>
+
+<p>I took a mock checkride on Friday last week, the feedback is that the flying was
+good (tracking courses, holding altitude, flying approaches), but need work
+on GPS automation, when and how it can be used, how to reconfigure it
+quickly, and being intimately familiar with everything it can do.</p>
+
+<p>A few weeks of study, a couple more flights, and we should be good to go.</p>
+
+<p><strong>WX Decoder</strong></p>
+
+<p>I’m (again) getting up to speed with React and Redux, which I’ll be using to
+write WX Decoder in.</p>
+
+<p><a href="https://www.udemy.com/react-redux/learn/v4/overview">Modern React with Redux</a> is a stellar course by Stephen Grider,
+it’s the first one I’ve come across where I feel like I’m <em>really</em> grokking the
+core ideas. I’ll plan to get through this in October so I can start developing
+the actual website.</p>
+
+<p><strong>Climbing</strong></p>
+
+<p>It appears the injuries have subsided and I’m managing to climb with a bit
+more frequency. Forearm and finger strength is coming back slowly. I managed
+a V6 the other night, and nearly finished a second.</p>
+
+<h1 id="this-week">This Week..</h1>
+
+<ul>
+  <li><strong>Flying</strong>
+    <ul>
+      <li>Keep studying, try and get a flight in during the week, no specific goals.</li>
+    </ul>
+  </li>
+  <li><strong>WX Decoder</strong>:
+    <ul>
+      <li>Finish at least one more module of the Udemy course.</li>
+      <li>Wireframes and workflow diagrams for the initial version.</li>
+      <li>Set up a Trello org to use as a Kanban board.</li>
+    </ul>
+  </li>
+  <li><strong>Climbing</strong>:
+    <ul>
+      <li>Complete the first week of a five-week training plan.</li>
+      <li>Climb at least one more V6.</li>
+    </ul>
+  </li>
+</ul>
+
+:ET

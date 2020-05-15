@@ -1,0 +1,10 @@
+I"h<p>The Image Workstation project I’ve been working on lately is being installed today at its first hospital since a round of major updates. Most are stabilization and bug fixes, but a few interesting features:</p>
+
+<ul>
+  <li>moved app settings to the database instead of being stored in the .exe.config file</li>
+  <li>moved folder discovery &amp; selection to a separate thread, so offline folders != unresponsive UI</li>
+  <li>added support for Linux folder shares</li>
+</ul>
+
+<p>It sounds like the install has gone smoothly and I’m excited to get feedback on how things go over the next couple of weeks.</p>
+:ET

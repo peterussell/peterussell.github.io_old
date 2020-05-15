@@ -1,0 +1,82 @@
+I"<p>ForeFlight (<a href="http://www.aopa.org/News-and-Video/All-News/2013/October/12/AOPAs-Smith-offers-20-favorite-aviation-apps.aspx">pretty</a> <a href="http://ipadpilotnews.com/2012/11/top-10-aviation-apps/">unanimously</a> the best flying app currently available)
+has a cool feature called <strong>Track Log</strong> that I’ve wanted to try out for a while now.
+Track Log records flight data such as altitude and heading over time, and lets you
+export it later in .kml, .gpx, or .csv formats.</p>
+
+<p>A cool trick is importing the recorded data into Google Earth, which can display a
+3D view of where you and your trusty Cessna have been. I didn’t have
+an airplane to play with this morning, but I did have an iPhone, ForeFlight, and a 20 minute
+bus commute. Here’s the result…</p>
+
+<p><img src="/assets/images/ff-track-log-google-earth.png" alt="Google Earth by bus" />
+<br />
+<br /></p>
+
+<h3 id="instructions">Instructions</h3>
+
+<p><em>Note: works on iPhone 5s - mileage may vary but this should get you most of the way.</em></p>
+
+<p><strong>Step 1: Enable the Track Log Start/Stop Control</strong></p>
+
+<ul>
+  <li>In ForeFlight, go to Menu &gt; Settings</li>
+  <li>Scroll down to ‘Track Log Control’ (just past 3/4 of the way down)</li>
+  <li>
+    <p>Turn on Enable Start/Stop Control if it isn’t already</p>
+
+    <p><img src="/assets/images/ff-menu.png" alt="Enable Start/Stop control" /></p>
+  </li>
+</ul>
+
+<p><strong>Step 2: Record the ‘flight’</strong></p>
+
+<ul>
+  <li>On the map screen (Menu &gt; Maps) you should see a <strong>REC</strong> button with a timer below it</li>
+  <li>To start recording press the REC button, the timer will start</li>
+  <li>
+    <p>To stop, press the REC button again</p>
+
+    <p><img src="/assets/images/ff-map-record-button.png" alt="Start and stop recording" /></p>
+  </li>
+</ul>
+
+<p><strong>Step 4: Edit log details and upload to foreflight.com</strong></p>
+
+<ul>
+  <li>Menu &gt; Track Logs shows the list of track logs recorded on all your devices</li>
+  <li>Click on a log to modify details (name, pilot name, tail number etc.)</li>
+  <li>Go back to Track Logs (top left button) when done editing details</li>
+  <li>
+    <p>Click the upload icon to save the log to your account on foreflight.com</p>
+
+    <p><img src="/assets/images/ff-track-log-list.png" alt="Track log list" /></p>
+  </li>
+</ul>
+
+<p><em>Note: if you have compatible apps (eg. Google Earth) installed on your device, you
+can open a Track Log directly in the app. Select the Track Log you want to open,
+press the upload icon, Send To &gt; Open In, and select the app.</em></p>
+
+<p><strong>Step 5: Download the log from foreflight.com</strong></p>
+
+<ul>
+  <li>Log in to <a href="http://www.foreflight.com/">foreflight.com</a> and go to your account</li>
+  <li>Open Track Log. You should see a list of logs on the right, including your
+recent upload</li>
+  <li>
+    <p>Download the .kml file for the log you want to import to Google Earth</p>
+
+    <p><img src="/assets/images/ff-web-track-log-list.png" alt="Download the log's .kml file" /></p>
+  </li>
+</ul>
+
+<p><strong>Step 6: Import the log into Google Earth</strong></p>
+
+<ul>
+  <li>In Google Earth, go to File &gt; Open (I read some systems may be File &gt; Import)</li>
+  <li>Select the .kml file you just saved and click Open</li>
+</ul>
+
+<p><strong>Done!</strong></p>
+
+:ET

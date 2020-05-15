@@ -1,0 +1,51 @@
+I"�<p>The web UI now shows a history of commands that have been entered, and the response from the REST
+server for the command.</p>
+
+<p><img src="/assets/images/2016-01-04/ui-with-history.png" width="400" /></p>
+
+<p>Each time the Redux Reducer is called, we grab the command and push it on to a ‘commandHistory’
+array, which is then returned with the new state. The result is all the history then ends up
+in the state returned to the view.</p>
+
+<p>There could well be a better way to do this (for example, does the command history even need to
+be a part of the state, or should it just be appended in the view? It’s not really <em>state</em> after
+all), but hey, it’s working for now!</p>
+
+<p>The view took a bit of wrapping my head around JSX, specifically how to use the <array>.map() function inside
+a React Component to render more Components (hint: it's easy to do, as long as you don't want line
+breaks..), but I emerged the victor, and that - also - is working for now.</array></p>
+
+<p>Here’s a shot of home.jsx showing the React component nesting, of note are:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;CommandHistory history={commandHistory} /&gt;
+&lt;CommandHistoryItem value={line} /&gt;
+</code></pre></div></div>
+
+<p>(I agree, the names of the props need some work. But trying to think of three variations on the word
+‘history item’ wasn’t a good late-evening exercise).</p>
+
+<p>home.jsx:</p>
+
+<p><img src="/assets/images/2016-01-04/react-components.png" /></p>
+
+<p>Next up I’m going to clean up the JSON request and response objects a bit to more closely model
+what we’d actually expect from the game server. Because we’re starting out simply this will
+likely be something like</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>request = {
+  timestamp: // date/time,
+  commandID: // a GUID or similar, to map responses to requests
+  userID: pete,
+  command: go north
+}
+
+response = {
+  timestamp: // date/time,
+  commandID: // GUID sent on the request
+  result: 'pete has gone north, over a cliff, and has died'
+}
+</code></pre></div></div>
+
+<p>After that it should be about time to start plumbing the REST server into the C++ game server,
+and the real fun begins.</p>
+:ET

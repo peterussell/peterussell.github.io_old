@@ -1,0 +1,4 @@
+I"%<p>Peggy now has a (very rudimentary) REST server API, which I’ve muddled together using
+node.js and Express. Despite my relative inexperience, it took a lot less time than I was expecting,
+although figuring out how to get React and Redux into the mix took a little extra learning time.</p>
+:ET

@@ -1,0 +1,59 @@
+I"t	<p>January’s brought a few distractions, but I’m still riding that iOS bandwagon
+into the sunset (perhaps sunrise would be the better metaphor). I’m progressing
+through the <a href="http://codewithchris.com/1-introduction-to-the-tools-and-materials/">codewithchris.com</a> tutorial series, which is very good and
+thorough so far.</p>
+
+<p>I’ve just finished lesson 10, which has started to dive into writing Swift code.
+At this point I thought it’d be a good time to write a few little notes about
+format and quirks:</p>
+
+<ul>
+  <li>
+    <p>variable naming follows the convention</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> var variable-name:variable-type
+</code></pre></div>    </div>
+
+    <p>For example:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> var someName:String
+</code></pre></div>    </div>
+
+    <p>The type isn’t compulsory, but nice if you know the type in advance</p>
+  </li>
+  <li>
+    <p>when calling a method, the first arg doesn’t need to be named, but subsequent ones do</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> flyPlane("RV4", orientation: "Upside Down", reason: "More fun")
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>return types go <em>after</em> the method signature</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> doSomeCoolEquation(val1:Int, val2:Int) -&gt; Int { // method body }
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>‘type’ methods are similar to static methods in other languages, they have the syntax:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  class func GetMyFood () -&gt; String {
+    return "It's a sandwich"
+  }
+  ...
+  TheClass.GetMyFood()
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>to link a UIView object in the storyboard to an <em>IBOutlet</em> property on a class:</p>
+    <ul>
+      <li>open the ‘Assistant Editor’ - bow tie icon, top right of Xcode</li>
+      <li>CTRL+click-and-drag the object in the storyboard over to the code window</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Swift seems like a fun language and quite straight-forward to wrap my head
+around so far. I’m looking forward to delving into something a bit
+more substantial once I’ve grokked enough to be dangerous.</p>
+
+:ET

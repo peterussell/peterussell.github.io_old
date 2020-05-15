@@ -1,0 +1,49 @@
+I"�<p>In an effort to be a little more pragmatic about how I’m spending my time (especially
+with <a href="http://peterussell.me/programming/2015/08/25/life-before-30.html">all these things to do this year</a>) I set off in search of an
+effective way to allocate and track time during the week.</p>
+
+<h3 id="agile">Agile</h3>
+
+<p><a href="http://agilemethodology.org/">Agile</a> is a methodology from software development that seems to fit the bill nicely.
+Agile includes a concept of ‘sprints’. A sprint is a defined period of time (eg. 2 weeks), and
+has a number of tasks that are expected to be completed within that period. You provide an
+estimate of how much time each task (and therefore all tasks) will take, then track the actual
+time spent and compare the two values.</p>
+
+<p>When you compare the ‘expected’ time spent on a task vs. the ‘actual’ time spent on a task
+it’s easy to tell whether you’re ahead or behind of schedule. Aggregate across all
+tasks (often presented in a burndown chart) and you can quickly tell exactly how much
+you’ve lied to yourself about your superhuman abilities.</p>
+
+<p>Agile encompasses many other concepts and practices, but these are the main ones I plan to use.</p>
+
+<h3 id="implementation">Implementation</h3>
+<p>I’m using <a href="https://www.trello.com/">Trello</a> with a <a href="https://chrome.google.com/webstore/detail/scrum-for-trello/jdbcdblgjdpmfninkoogcfpnkjmndgje?hl=en">Scrum plugin</a> (Scrum’s a framework for Agile).
+I’ve allocated 17 hours of work over the 2 week sprint, which may increase or decrease in future sprints
+depending on how this trial goes. Tasks are defined and fall into one of four categories:</p>
+
+<ul>
+  <li>Backlog: the task queue</li>
+  <li>In Progress: tasks I’m working on (ideally only one at a time, but multiple are allowed)</li>
+  <li>Completed: yay!</li>
+  <li>Blocked: anything that I can’t complete due to circumstances beyond ‘I’m lazy’</li>
+</ul>
+
+<p><img src="/assets/images/2015-10-12/trello.png" alt="Trello Board" /></p>
+
+<p>The Scrum plugin allows you to add a time estimate to cards in Trello along with a ‘completed so far’
+time on the card for each task.</p>
+
+<p>I should point out that Trello Boards aren’t set up like the screenshot above may lead you to believe, but
+it’s very easy to get going without much work.  Here’s how I’ve mapped the Trello components to
+the Agile/Scrum concepts:</p>
+
+<p>Each category I mentioned above is a Trello ‘board’, each task correlates to a Trello ‘card’. Boards contain
+cards. If any task requires more information then a checklist can easily be added to a card to
+break it into sub-tasks. I’ve added colored labels which represent categories for tasks, with the
+idea that it’ll be easy to see how I’ve been spending time (or should be spending time) at a glance.</p>
+
+<p>The setup took around an hour or so (including figuring out how to use it) which I consider
+a small investment for what seems like will be a useful system. I’ll report back.</p>
+
+:ET

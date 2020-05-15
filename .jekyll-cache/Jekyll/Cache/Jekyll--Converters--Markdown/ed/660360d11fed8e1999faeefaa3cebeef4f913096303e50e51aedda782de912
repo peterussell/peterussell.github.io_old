@@ -1,0 +1,97 @@
+I"�<h1 id="in-review">In Review…</h1>
+
+<p><strong>Flying</strong></p>
+
+<p>The spirit of Jimmy Doolittle has smiled upon me and I’m happy to
+report the instrument rating checkride was a success. The ride was
+a 3 hour oral, and 2.2 hour flight test, split over two days
+due to a failed turn coordinator. It was a fun, though fairly
+intense checkride, but I’m very happy to have done the rating.</p>
+
+<p>I’ve decided to go for the commercial multi-engine rating, and set up
+<a href="http://cpl.peterussell.me">cpl.peterussell.me</a> for study notes and flight debriefs. Looking
+back on instrument training I wish I’d been more rigorous about
+documenting flight debriefs, so now’s my chance to make good.</p>
+
+<p>The tailwheel time has been slowly building. We’ve had pretty rubbish
+weather lately, but I’ve managed to squeeze in flights on most sunny
+days. The logbook says 9.7 hours and I’m starting to feel comfortable
+in the SportCub, it’s definitely some of the most fun flying I’ve done.</p>
+
+<p><strong>WX Decoder</strong></p>
+
+<p>The first version of the REST API is now live. It supports
+decoding METARs (avation weather reports) for two basic use cases:</p>
+
+<ol>
+  <li>As a user, I want to specify an airport ID. The website should fetch the
+latest METAR, decode it, and return it to me.
+    <ul>
+      <li>
+        <p>Example for Portland International (KDPX):</p>
+
+        <blockquote>
+          <p><a href="http://api.wxdecoder.com/metar/decode/kpdx">api.wxdecoder.com/metar/decode/kpdx</a></p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+  <li>As a user, I have METAR text which I want to decode. I want some way
+to submit raw METAR text to the website, then the website should decode
+the text into a friendly format and return that decoded text to me.
+    <ul>
+      <li>
+        <p>This one requires including the raw METAR string in the body of a GET
+request to…</p>
+
+        <blockquote>
+          <p><a href="http://api.wxdecoder.com/metar/decode">api.wxdecoder.com/metar/decode</a></p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p>The REST API is written with the Django REST Framework (DRF), deployed on
+Heroku. Feel free to play around with it, and if you see any issues or
+have suggestions you can get me <a href="https://twitter.com/nz_pete">@nz_pete</a>.</p>
+
+<p><strong>Climbing</strong></p>
+
+<p>A bit more training and a bit less drinking beer (boo) is paying off, I
+climbed my first <em>ever</em> V7 indoors last week. I’ve been working a
+second which should go in the next session or two. Progress.</p>
+
+<p>I’ve also been asking around about outdoor spots, and signed up to the
+<a href="http://www.carverclimbingclub.org">Carver Climbing Club</a> - apparently is an excellent spot close
+to Portland. Now to wait for the weather gods and spend some more time
+climbing plastic. Really looking forward to getting outside.</p>
+
+<p><strong>Reading</strong></p>
+
+<p><a href="http://www.goodreads.com/book/show/18595506-high-altitude">High Altitude: Mountaineer, Airline Pilot, Modern-day Adventurer</a> by
+<a href="http://www.stuff.co.nz/national/9267885/Living-the-high-life">Mike Allsop</a></p>
+
+<h1 id="this-week">This Week..</h1>
+
+<ul>
+  <li><strong>Flying</strong>
+    <ul>
+      <li>Review the aerodynamics chapter of the <a href="https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/">Pilot’s Handbook</a></li>
+    </ul>
+  </li>
+  <li><strong>WX Decoder</strong>
+    <ul>
+      <li>Set up a project in Trello, write up the backlog items</li>
+      <li>Have a basic UI working, text input field with an output label</li>
+      <li>Publish the UI</li>
+    </ul>
+  </li>
+  <li><strong>Climbing</strong>
+    <ul>
+      <li>Finish the second V7</li>
+    </ul>
+  </li>
+</ul>
+
+:ET

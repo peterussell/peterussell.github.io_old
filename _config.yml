@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://peterussell.me" # the base hostname & protocol for your site
 twitter_username: nz_pete
 github_username:  peterussell
-instagram_username: raybansandabigwatch
+instagram_username: nz_pete
 
 # Build settings
 markdown: kramdown
@@ -17,3 +17,7 @@ paginate: 4
 author: Pete Russell
 
 gems: [jekyll-paginate]
+
+plugins: [jekyll-paginate]
+
+timezone: Pacific/Auckland

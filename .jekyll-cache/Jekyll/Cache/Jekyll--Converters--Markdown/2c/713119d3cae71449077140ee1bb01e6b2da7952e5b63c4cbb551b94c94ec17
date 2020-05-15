@@ -1,0 +1,20 @@
+I"�<p>Hello from New Zealand!</p>
+
+<p>I made use of some airport downtime to tidy up the
+UI a little bit. It’s still a long way from its final
+incarnation, but at least represents the idea of entering a command,
+then having the command and response displayed and scroll upwards
+from above the input window.</p>
+
+<p><img src="/assets/images/2016-01-11/peggy-updated-ui.png" width="400" /></p>
+
+<p>The next two tasks, in no particular order:</p>
+
+<ul>
+  <li>hook up the web UI to the C++ game server</li>
+  <li>set up a public web server (probably a quick ‘n dirty job) so anyone can try out the game</li>
+</ul>
+
+<p>As always, <a href="https://github.com/peterussell/peggy2">source is available on github</a>.</p>
+
+:ET
