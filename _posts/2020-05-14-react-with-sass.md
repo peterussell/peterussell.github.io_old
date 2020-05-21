@@ -93,6 +93,25 @@ the value of `background-colour` with the imported variable.
 *NB. the official SASS docs recommend using `@use` instead of `@import`,
 but at the time of writing `@use` isn't supported in node-sass.*
 
+# 3. Add Bootstrap
+
+`npm install react-bootstrap bootstrap`
+
+[More information on getting started with React-Bootstrap][bootstrap].
+
+Once the install completes we can start use the Bootstrap components
+directly in React JSX. For example, we can update our `NavBar` to use
+Bootstrap containers, rows, and columns:
+
+```
+<Container className="navBar">
+  <Row>
+    <Col>I seem to be...</Col>
+    <Col>...a nav bar</Col>
+  </Row>
+</Container>
+```
+
 # And that's it!
 
 Et voila, you've got individual component styling as well as an easy
@@ -102,3 +121,4 @@ on the create-react-app website.
 
 [react-install]: https://reactjs.org/docs/create-a-new-react-app.html
 [cra-sass]: https://create-react-app.dev/docs/adding-a-sass-stylesheet/
+[bootstrap]: https://react-bootstrap.github.io/getting-started/introduction/
