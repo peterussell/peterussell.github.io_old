@@ -11,9 +11,10 @@ Set up a simple React website using SASS/SCSS and Bootstrap.
 
 # Assumptions
 
-An existing React web application (see the docs on
-[How to create a react app][react-install]  if you need help), and 
-`npm` installed.
+You have...
+
+ - An existing React web application
+ - npm installed
 
 # 1. Install node-sass
 
@@ -21,14 +22,13 @@ An existing React web application (see the docs on
 
 The node-sass module adds the SASS preprocessor to your React project,
 allowing you to write SASS/SCSS (which browsers don't understand) and
-have it come out as CSS (which browser do understand).
+have it converted to CSS (which they do).
 
 # 2. Add styles to components
 
-It's generally recommended to keep React components completely
-self-contained, which implies that each component should have its
-own stylesheet. For example, this is how I've implemented my `NavBar`
-component.
+It's recommended to keep React components completely self-contained, styles
+and all, meaning each component gets its own stylesheet. Your own setup
+is completely flexible but for reference, here's how I've set up my `NavBar` component.
 
 ```
 - src
@@ -38,7 +38,7 @@ component.
         |- NavBar.scss     
 ```
 
-SCSS can be added to `NavBar.js`...
+You can add component styling to `NavBar.scss` like this:
 
 ```
 .navBar {
@@ -46,7 +46,7 @@ SCSS can be added to `NavBar.js`...
 }
 ```
 
-... and then imported and used in `NavBar.js`
+And then import and use it in `NavBar.js` like this:
 
 ```
 import './NavBar.scss';
@@ -54,14 +54,17 @@ import './NavBar.scss';
 <div className="navBar">It appears I'm a nav bar.</div>
 ```
 
-# 3. Adding global styles
+# 3. Global styles
 
-So what about global styling like colour palettes, stored in variables
-inside SASS partials?
+So we just said component styles should be specific to the
+component, but what about global settings like colour palettes?
 
-Create a partial file (NB. the underscore tells the preprocessor that
-the file is meant to be included in another file, and don't create a
-standalone CSS file for it)...
+Although a good approach is using themes supported by libraries like Bootstrap,
+for the sake of this exercise we'll assume you just want a quick way to
+set a few global values and import them. We can achieve this
+using SASS partials.
+
+Create a partial file (NB. the underscore in `_colours.scss` is required):
 
 ```
 - src
@@ -69,28 +72,32 @@ standalone CSS file for it)...
      |- _colours.scss
 ```
 
-... add some code ...
+Add some code to the partial SCSS file.
 
 ```
 $dark-blue: #15354e;
 ```
 
-... then load the partial into your component's stylesheet, and use
-the variable. In this example, we're replacing the `background-colour`
-with the imported variable.
+Now we import the partial into your component's stylesheet which gives
+us access to the values we defined in it. In this example we're replacing
+the value of `background-colour` with the imported variable.
 
 ```
 @import '../../styles/_colours.scss';
-...
+
 .navBar {
   background-color: $dark-blue;
 }
 ```
 
+*NB. the official SASS docs recommend using `@use` instead of `@import`,
+but at the time of writing `@use` isn't supported in node-sass.*
+
 # And that's it!
 
 Et voila, you've got individual component styling as well as an easy
-way to deal with site-wide variables. For additional reading, check out [Adding a SASS Stylesheet][cra-sass]
+way to deal with site-wide variables. For additional reading, check out
+["Adding a SASS Stylesheet"][cra-sass]
 on the create-react-app website.
 
 [react-install]: https://reactjs.org/docs/create-a-new-react-app.html
